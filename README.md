@@ -20,5 +20,16 @@ npm run build
 npm run lint
 ```
 
+### Tool usage
+```
+axios
+bootstrap
+vue-sweetalert2
+```
+npm install sweetalert2
+npm install axios
+### Lints and fixes files
+```
+npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
