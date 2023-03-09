@@ -3,6 +3,7 @@
     <div class="row">
       <div class="col-4" v-for="(user, index) in users" :key="index">
         <div>
+          <!-- listing all the card from the server -->
           <b-card
             class="my-2 text text-capitalize shadow-md"
             @click="copyText(user.phone)"
@@ -26,7 +27,7 @@
 
 <script>
 import axios from "axios";
-import Swal from 'sweetalert2'
+import Swal from "sweetalert2";
 export default {
   name: "HelloWorld",
   data() {

@@ -27,7 +27,7 @@ bootstrap
 vue-sweetalert2
 ```
 npm install sweetalert2
-
+&&
 
 npm install axios
 ### Lints and fixes files
